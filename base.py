@@ -22,8 +22,6 @@ class Page(object):
         except NoSuchElementException:
             return False
         return True
-
-
-
+        
     def wait_for_element(self, *locator):
         return WebDriverWait(self.driver, 30).until(lambda self: self.find_element(*locator))
