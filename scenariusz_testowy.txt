@@ -1,0 +1,9 @@
+Test scenario:
+1. Otwarcie przegl¹darki i przejœcie do http://demo.opencart.com/
+2. Zmiana waluty na GBP 
+3. Wyszukanie “iPod” w wyszukiwarce produktów
+4. Dodanie wszystkich iPod'ów zwróconych w wyniku wyszukiwania do "product comparison"
+5. Wyœwietlenia strony "product comparison" 
+6. Usuniêcie produktu, który jest 'Out Of Stock' z porównywarki
+7. Dodanie losowego dostêpnego produktu do "shopping cart" 
+8. Przjeœcie do "shopping cart" i weryfikacja, czy "total price" równa siê cenie (Price) ze strony porównywarki dla wybranego produktu
